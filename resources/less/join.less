@@ -1,0 +1,142 @@
+@import "mixins.less";
+@import "variables.less";
+
+.page-section{
+    .page-section;
+}
+
+// Menu
+.menu{
+    font-size:18px;
+    width:91%;
+    margin:auto;
+    a{
+        text-decoration: none;
+        color:black;
+        margin:40px 20px;
+    }
+    i{
+        margin:40px 20px;
+    }
+    .logo{
+        position: relative;
+        top:8px;
+    }
+}
+
+// contact background
+.contact-background{
+    background-image:url(/images/market-bg.jpg);
+    .background-image-function;
+    height:300px;
+}
+// Service
+.media-service-title{
+    display:flex;
+    justify-content: center;
+    padding:150px 0 100px 0;
+    img{
+        position: relative;
+        bottom:5px;
+        margin:0 20px;
+    }
+}
+
+// Job Position
+.job-container{
+    display:flex;
+    text-align: center;
+    margin-bottom:150px;
+    .job-temp{
+        width:70%;
+        display:flex;
+        padding:0 130px;
+    }
+    .job-box{
+        position: relative;
+        width:60%;
+        height:700px;
+        background-color:#F2F2F2;
+        img{
+            width:325px;
+            height:200px;
+        }
+        p{
+            padding:20px 0 50px 0;
+            width:80%;
+            margin:auto;
+            text-align: left;
+        }
+        a{
+            background-color:@red;
+            padding:10px 20px;
+            text-decoration: none;
+            color:white;
+            border-radius: 5px;
+        }
+    }
+    .job-box:hover{
+        position: relative;
+        text-align: center;
+        z-index:3;
+        width:60%;
+        bottom:60px;
+        height:800px;
+        box-shadow: 0px 3px 14px 8px rgba(168,168,168,0.58);
+        img{
+            width:450px;
+            height:250px;
+        }
+        a{
+            color:@red;
+            background-color:white;
+        }
+    
+    }
+}
+
+
+// Footer
+.footer{
+    background-color:@red;
+    color:white;
+    .footer-container{
+        width:1000px;
+        display:flex;
+        justify-content: space-around;
+        margin:auto;
+        padding-left:100px;
+    }
+    .footer-one{
+        width:160px;
+        padding:60px 0;
+        p{
+            padding-top:30px;
+        }
+    }
+    .footer-two{
+        width:240px;
+        padding:60px 0 0 0;
+        h3{
+            padding:0 0 50px 0; 
+        }
+        .footer-link{
+            display:flex;
+            flex-wrap:wrap;
+            a{
+                text-decoration: none;
+                color:white;
+                padding:10px 40px 10px 0;
+                font-size: 14px;
+            }
+        }
+    }
+    .footer-social-icon{
+        margin-left:auto;
+        width:15%;
+        padding:20px 0;
+        i{
+            padding:0 10px;
+        }
+    }
+}

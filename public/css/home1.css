@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.page-section {
+  width: 100%;
+}
+.background-image-function {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+}
+.small-title .char {
+  color: #B82025;
+}
+.small-title .text {
+  color: grey;
+  padding: 0 20px;
+}
+.small-title h2 {
+  color: #B82025;
+  font-size: 2.5em;
+  padding: 40px 0;
+}
+.button {
+  background-color: #0B245B;
+  color: white;
+  border-color: #0B245B;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-top: 40px;
+}
+.home1-button {
+  background-color: black;
+  color: #B82025;
+  padding: 15px;
+  border-color: #B82025;
+  margin: 20px 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-container .mySlides {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.swiper-container .mySlides h5 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+.swiper-container .mySlides p {
+  font-size: 1em;
+  color: grey;
+}
+.swiper-container .mySlides .slide-box {
+  text-align: center;
+  width: 200px;
+  border: 1px dashed black;
+  border-radius: 20px;
+  padding: 30px;
+  height: 200px;
+  margin: 0 20px;
+}
+.mySlides1 {
+  display: block;
+  width: 100%;
+  height: 300px;
+  padding: 50px 0;
+  margin-top: 70px;
+}
+.mySlides1 .icon {
+  width: 50px;
+  height: 50px;
+  padding: 0 20px;
+}
+.mySlides1 p {
+  width: 40%;
+  font-size: 25px;
+  color: white;
+  padding: 0 0 0 100px;
+  text-align: left;
+}
+.mySlides1 span {
+  color: white;
+}
+.mySlides1 .content {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  width: 31%;
+  padding-top: 80px;
+}
+.mySlides1 .content span {
+  padding: 15px 0;
+}
+.menu {
+  display: flex;
+}
+.menu img {
+  width: 150px;
+  height: 50px;
+  padding: 40px 40px 40px 100px;
+}
+.menu .top-menu {
+  padding: 70px 70px 70px 100px;
+  margin-left: auto;
+}
+.menu .top-menu a {
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+}
+.top-container {
+  text-align: center;
+}
+.top-container h1 {
+  color: #B82025;
+  font-size: 5em;
+  margin: 40px 0;
+}
+.top-container h2 {
+  color: white;
+  font-size: 3em;
+  margin: 40px 0;
+}
+.top-container button {
+  background-color: black;
+  color: #B82025;
+  padding: 15px;
+  border-color: #B82025;
+  margin: 20px 0;
+}
+.service-rotate {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  transform: rotate(-90deg);
+  padding-bottom: 100px;
+}
+.service-rotate span {
+  color: white;
+  float: left;
+}
+.service-rotate hr {
+  width: 110px;
+  color: white;
+}
+.service {
+  padding: 100px 100px 50px;
+}
+.service .top-container-content {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  width: 100%;
+}
+.service .top-container-content p {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  line-height: 2;
+}
+.service .top-container-content button {
+  background-color: black;
+  color: #B82025;
+  padding: 15px;
+  border-color: #B82025;
+  margin: 20px 0;
+  width: 200px;
+  margin: 50px auto;
+}
+.who {
+  padding: 0 100px 100px;
+}
+.who .middle-container-content {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.who .middle-container-content .middle-box {
+  width: 40%;
+}
+.who .middle-container-content .middle-box p {
+  color: white;
+  font-size: 20px;
+  line-height: 2;
+}
+.who .middle-container-content .middle-box button {
+  background-color: black;
+  color: #B82025;
+  padding: 15px;
+  border-color: #B82025;
+  margin: 20px 0;
+  padding: 10px;
+  margin: 50px auto;
+  float: right;
+}
+.who .middle-container-content img {
+  width: 400px;
+  height: 250px;
+  padding: 0 50px;
+}
+.case {
+  padding: 0 100px 100px;
+}
+.case .case-pic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.case .case-pic img {
+  width: 400px;
+  height: 300px;
+  padding: 0 50px 50px 0;
+}
+.case button {
+  background-color: black;
+  color: #B82025;
+  padding: 15px;
+  border-color: #B82025;
+  margin: 20px 0;
+  padding: 10px;
+  margin: 50px 140px;
+  float: right;
+}
+.text span {
+  font-size: 3.5em;
+  color: red;
+  font-family: 'Londrina Shadow', cursive;
+  padding: 90px;
+}
+/* Slideshow container */
+.swiper-container {
+  width: 100%;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-container .mySlides {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.swiper-container .mySlides h5 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+.swiper-container .mySlides p {
+  font-size: 1em;
+  color: grey;
+}
+.swiper-container .mySlides .slide-box {
+  text-align: center;
+  width: 200px;
+  border: 1px dashed black;
+  border-radius: 20px;
+  padding: 30px;
+  height: 200px;
+  margin: 0 20px;
+}
+.mySlides1 {
+  display: block;
+  width: 100%;
+  height: 300px;
+  padding: 50px 0;
+  margin-top: 70px;
+}
+.mySlides1 .icon {
+  width: 50px;
+  height: 50px;
+  padding: 0 20px;
+}
+.mySlides1 p {
+  width: 40%;
+  font-size: 25px;
+  color: white;
+  padding: 0 0 0 100px;
+  text-align: left;
+}
+.mySlides1 span {
+  color: white;
+}
+.mySlides1 .content {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  width: 31%;
+  padding-top: 80px;
+}
+.mySlides1 .content span {
+  padding: 15px 0;
+}
+.bottom-container {
+  background-color: #D36462;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  margin-top: 50px;
+}
+.bottom-container p {
+  font-size: 3em;
+  width: 100%;
+  color: white;
+  line-height: 1.5;
+}
+.bottom-container button {
+  width: 200px;
+  background-color: #D36462;
+  color: white;
+  padding: 5px;
+  font-size: 1.5em;
+  margin-top: 50px;
+  margin-left: auto;
+}
+.footer {
+  display: flex;
+  text-align: left;
+  padding: 30px 0;
+  width: 800px;
+  margin: auto;
+  color: white;
+}
+.footer .left-footer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  line-height: 3;
+}
+.footer .left-footer img {
+  width: 150px;
+  height: 50px;
+  padding-bottom: 30px;
+}
+.footer .left-footer span {
+  font-size: 14px;
+}
+.footer .right-footer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  line-height: 3;
+  padding-top: 45px;
+}
+.footer .right-footer .social-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer .right-footer .social-icon img {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
